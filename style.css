@@ -1,0 +1,39 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+    background: linear-gradient(to right, #43cea2, #185a9d);
+}
+
+#center-div, #bottom-container {
+    display: flex;
+    justify-content: center;
+    align-items: top;
+}
+
+#top-container {
+    display: block;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.input {
+    margin: 0 5px;
+}
+
+table {
+    margin-top: 30px;
+    border: 2px black solid;
+    width: 300px;
+    border-radius: 5px;
+    background-image: linear-gradient(47deg, rgb(202, 110, 110), rgb(130, 130, 214), rgb(238, 238, 143));
+}
+
+.obj-txt {
+    float: left;
+}
+
+.obj-num {
+    float: right;
+}
+

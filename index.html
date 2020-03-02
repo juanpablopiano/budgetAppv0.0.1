@@ -1,0 +1,61 @@
+<html>
+    <head>
+        <title>Carlos es gay</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="script.js" defer></script>
+    </head>
+    <body>
+        <div id="top-container">
+            <h1>Budget App v0.1!</h1>
+            <h2 id="h2-total">Total: 0</h2>
+            <h2 id="h2-income">Income: 0</h2>
+            <h2 id="h2-expense">Expense: 0</h2>
+        </div>
+        <div id="center-div">
+            <!-- <form id="form"> -->
+                <div class="input">
+                    <select name="masmenos" id="masmenos" required>
+                        <option>+</option>
+                        <option>-</option>
+                    </select>
+                </div>
+                
+                <div class="input">
+                    <input type="text" id="description" placeholder="Description" required>
+                </div>
+
+                <div class="input">
+                    <input type="number" min="0" id="number" placeholder="Amount" required>
+                </div>
+
+                <div>
+                    <button id="button">Submit</button>
+                </div>
+                
+            <!-- </form> -->
+        </div>
+        <div id="bottom-container">
+            <table border="0">
+                <thead>
+                    <tr>
+                        <th>Income</th>
+                    </tr>
+                </thead>
+                <tbody id="income-table">
+
+                </tbody>
+            </table>
+
+            <table border="0">
+                <thead>
+                    <tr>
+                        <th>Expenses</th>
+                    </tr>
+                </thead>
+                <tbody id="expenses-table">
+
+                </tbody>
+            </table>
+        </div>
+    </body>
+</html>
